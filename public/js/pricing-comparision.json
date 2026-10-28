@@ -1,0 +1,512 @@
+{
+  "comparison_table": {
+    "tiers": {
+      "BASIC": {
+        "monthly_pricing": {
+          "price": "$7/month",
+          "credits": "18,000/month"
+        },
+        "annual_pricing": {
+          "price": "$5/month",
+          "credits": "200,000/year"
+        }
+      },
+      "PRO": {
+        "monthly_pricing": {
+          "price": "$14/month",
+          "credits": "40,000/month"
+        },
+        "annual_pricing": {
+          "price": "$10/month",
+          "credits": "500,000/year"
+        }
+      },
+      "MAX": {
+        "monthly_pricing": {
+          "price": "$29/month",
+          "credits": "80,000/month"
+        },
+        "annual_pricing": {
+          "price": "$24/month",
+          "credits": "1,000,000/year"
+        }
+      }
+    },
+    "categories": {
+      "AI_video": [
+        {
+          "model": "Google Omni Flash 720p",
+          "tags": [
+            "NEW"
+          ],
+          "cost": "936 credits/s",
+          "annual_allowance": {
+            "BASIC": "~220 videos",
+            "PRO": "~540 videos",
+            "MAX": "~1100 videos"
+          }
+        },
+        {
+          "model": "Seedance 2.5 720p",
+          "tags": [
+            "LOWER PRICE"
+          ],
+          "cost": "2,016 credits/s",
+          "annual_allowance": {
+            "BASIC": "~70 videos",
+            "PRO": "~170 videos",
+            "MAX": "~340 videos"
+          }
+        },
+        {
+          "model": "Seedance 2.5 Fast 720p",
+          "tags": [
+            "LOWER PRICE"
+          ],
+          "cost": "940 credits/s",
+          "annual_allowance": {
+            "BASIC": "255 videos",
+            "PRO": "638 videos",
+            "MAX": "4,255 videos"
+          }
+        },
+        {
+          "model": "Seedance 2.5 4K 1080p",
+          "tags": [
+            "NEW"
+          ],
+          "cost": "5,600 credits/4s",
+          "annual_allowance": {
+            "BASIC": "42 videos",
+            "PRO": "107 videos",
+            "MAX": "714 videos"
+          }
+        },
+        {
+          "model": "Kling 4.0 Turbo 1080p",
+          "tags": [
+            "NEW"
+          ],
+          "cost": "780 credits/3s",
+          "annual_allowance": {
+            "BASIC": "307 videos",
+            "PRO": "769 videos",
+            "MAX": "5,128 videos"
+          }
+        },
+        {
+          "model": "Grok Imagine 1.5 720p",
+          "tags": [
+            "NEW"
+          ],
+          "cost": "840 credits/3s",
+          "annual_allowance": {
+            "BASIC": "285 videos",
+            "PRO": "714 videos",
+            "MAX": "4,761 videos"
+          }
+        },
+        {
+          "model": "Kling 4.0 Motion Control Pro",
+          "tags": [],
+          "cost": "450 credits/3s",
+          "annual_allowance": {
+            "BASIC": "533 videos",
+            "PRO": "1,333 videos",
+            "MAX": "8,888 videos"
+          }
+        },
+        {
+          "model": "Runway Gen 4.5",
+          "tags": [],
+          "cost": "1,100 credits/5s",
+          "annual_allowance": {
+            "BASIC": "218 videos",
+            "PRO": "545 videos",
+            "MAX": "3,636 videos"
+          }
+        },
+        {
+          "model": "Pixverse 6 1080p",
+          "tags": [],
+          "cost": "200 credits/1s",
+          "annual_allowance": {
+            "BASIC": "1,200 videos",
+            "PRO": "3,000 videos",
+            "MAX": "20,000 videos"
+          }
+        },
+        {
+          "model": "Google Veo 3.1 4K w/audio",
+          "tags": [],
+          "cost": "2,080 credits/4s",
+          "annual_allowance": {
+            "BASIC": "115 videos",
+            "PRO": "288 videos",
+            "MAX": "1,923 videos"
+          }
+        },
+        {
+          "model": "Kling O1 w/video reference",
+          "tags": [],
+          "cost": "750 credits/5s",
+          "annual_allowance": {
+            "BASIC": "320 videos",
+            "PRO": "800 videos",
+            "MAX": "5,333 videos"
+          }
+        },
+        {
+          "model": "Wan 2.7 1080p",
+          "tags": [
+            "LOWER PRICE"
+          ],
+          "cost": "400 credits/2s",
+          "annual_allowance": {
+            "BASIC": "600 videos",
+            "PRO": "1,500 videos",
+            "MAX": "10,000 videos"
+          }
+        },
+        {
+          "model": "MiniMax Hailuo 2.3 Fast 768p",
+          "tags": [
+            "UNLIMITED"
+          ],
+          "cost": "150 credits/6s",
+          "annual_allowance": {
+            "BASIC": "1,600 videos",
+            "PRO": "∞",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Kling 2.5 720p",
+          "tags": [
+            "UNLIMITED"
+          ],
+          "cost": "140 credits/5s",
+          "annual_allowance": {
+            "BASIC": "1,714 videos",
+            "PRO": "∞",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Photon Video Upscaler",
+          "tags": [
+            "NEW"
+          ],
+          "cost": "Included",
+          "annual_allowance": {
+            "BASIC": true,
+            "PRO": true,
+            "MAX": true
+          }
+        }
+      ],
+      "AI_image": [
+        {
+          "model": "Google Nano Banana 2.1 Lite 1K",
+          "tags": [
+            "NEW",
+            "UNLIMITED"
+          ],
+          "cost": "60 credits/image",
+          "annual_allowance": {
+            "BASIC": "4,000 images",
+            "PRO": "∞",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Google Nano Banana 2.1 1K",
+          "tags": [
+            "UNLIMITED"
+          ],
+          "cost": "75 credits/image",
+          "annual_allowance": {
+            "BASIC": "3,200 images",
+            "PRO": "∞",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Google Nano Banana 2.1 2K",
+          "tags": [
+            "UNLIMITED"
+          ],
+          "cost": "75 credits/image",
+          "annual_allowance": {
+            "BASIC": "3,200 images",
+            "PRO": "8,000 images",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Google Nano Banana 2.1 4K",
+          "tags": [],
+          "cost": "150 credits/image",
+          "annual_allowance": {
+            "BASIC": "1,600 images",
+            "PRO": "4,000 images",
+            "MAX": "26,666 images"
+          }
+        },
+        {
+          "model": "GPT Image 2.0 Mid 2K",
+          "tags": [
+            "NEW"
+          ],
+          "cost": "400 credits/image",
+          "annual_allowance": {
+            "BASIC": "600 images",
+            "PRO": "1,500 images",
+            "MAX": "10,000 images"
+          }
+        },
+        {
+          "model": "Seedream 5.0 Lite 4K",
+          "tags": [
+            "NEW",
+            "UNLIMITED"
+          ],
+          "cost": "50 credits/image",
+          "annual_allowance": {
+            "BASIC": "4,800 images",
+            "PRO": "∞",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Krea 2",
+          "tags": [
+            "NEW"
+          ],
+          "cost": "80 credits/image",
+          "annual_allowance": {
+            "BASIC": "3,000 images",
+            "PRO": "7,500 images",
+            "MAX": "50,000 images"
+          }
+        },
+        {
+          "model": "Luma Uni-1.1",
+          "tags": [
+            "NEW"
+          ],
+          "cost": "140 credits/image",
+          "annual_allowance": {
+            "BASIC": "1,714 images",
+            "PRO": "4,285 images",
+            "MAX": "28,571 images"
+          }
+        },
+        {
+          "model": "Recraft V4.1 Mid",
+          "tags": [
+            "UNLIMITED"
+          ],
+          "cost": "60 credits/image",
+          "annual_allowance": {
+            "BASIC": "4,000 images",
+            "PRO": "∞",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Grok",
+          "tags": [
+            "UNLIMITED"
+          ],
+          "cost": "70 credits/image",
+          "annual_allowance": {
+            "BASIC": "3,428 images",
+            "PRO": "∞",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Google Nano Banana Pro (1K/2K)",
+          "tags": [
+            "UNLIMITED"
+          ],
+          "cost": "75 credits/image",
+          "annual_allowance": {
+            "BASIC": "3,200 images",
+            "PRO": "8,000 images",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Google Nano Banana Pro 4K",
+          "tags": [],
+          "cost": "150 credits/image",
+          "annual_allowance": {
+            "BASIC": "1,600 images",
+            "PRO": "4,000 images",
+            "MAX": "26,666 images"
+          }
+        },
+        {
+          "model": "Flux.2 Max 1K",
+          "tags": [
+            "UNLIMITED"
+          ],
+          "cost": "130 credits/image",
+          "annual_allowance": {
+            "BASIC": "1,846 images",
+            "PRO": "4,615 images",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Flux.2 Pro 1K",
+          "tags": [
+            "UNLIMITED"
+          ],
+          "cost": "50 credits/image",
+          "annual_allowance": {
+            "BASIC": "4,800 images",
+            "PRO": "∞",
+            "MAX": "∞"
+          }
+        },
+        {
+          "model": "Photon Precision",
+          "tags": [],
+          "cost": "90 credits/2K image",
+          "annual_allowance": {
+            "BASIC": "2,666 images",
+            "PRO": "6,666 images",
+            "MAX": "44,444 images"
+          }
+        }
+      ],
+      "AI_audio": [
+        {
+          "model": "Google Lyria 3",
+          "tags": [],
+          "cost": "160 credits/song",
+          "annual_allowance": {
+            "BASIC": "1,500 songs",
+            "PRO": "3,750 songs",
+            "MAX": "25,000 songs"
+          }
+        },
+        {
+          "model": "ElevenLabs Music Generation",
+          "tags": [],
+          "cost": "600 credits/30s",
+          "annual_allowance": {
+            "BASIC": "400 uses",
+            "PRO": "1,000 uses",
+            "MAX": "6,666 uses"
+          }
+        },
+        {
+          "model": "SFX Generation",
+          "tags": [],
+          "cost": "15 credits/3s",
+          "annual_allowance": {
+            "BASIC": "16,000 uses",
+            "PRO": "40,000 uses",
+            "MAX": "266,666 uses"
+          }
+        }
+      ],
+      "other_perks": [
+        {
+          "feature": "Downloads per day",
+          "cost": null,
+          "allowance": {
+            "BASIC": true,
+            "PRO": true,
+            "MAX": true
+          }
+        },
+        {
+          "feature": "Premium stock content",
+          "cost": null,
+          "allowance": {
+            "BASIC": true,
+            "PRO": true,
+            "MAX": true
+          }
+        },
+        {
+          "feature": "Commercial AI license",
+          "cost": null,
+          "allowance": {
+            "BASIC": true,
+            "PRO": true,
+            "MAX": true
+          }
+        },
+        {
+          "feature": "Photon MCP",
+          "cost": null,
+          "allowance": {
+            "BASIC": true,
+            "PRO": true,
+            "MAX": true
+          }
+        },
+        {
+          "feature": "API access with credit-based usage",
+          "cost": null,
+          "allowance": {
+            "BASIC": true,
+            "PRO": true,
+            "MAX": true
+          }
+        },
+        {
+          "feature": "Train AI characters",
+          "cost": "3,000 credits/character",
+          "allowance": {
+            "BASIC": "80 characters",
+            "PRO": "200 characters",
+            "MAX": "1,333 characters"
+          }
+        },
+        {
+          "feature": "Assistant",
+          "cost": null,
+          "allowance": {
+            "BASIC": false,
+            "PRO": true,
+            "MAX": true
+          }
+        },
+        {
+          "feature": "Merchandising license",
+          "cost": null,
+          "allowance": {
+            "BASIC": false,
+            "PRO": false,
+            "MAX": true
+          }
+        },
+        {
+          "feature": "Design and mockup tools",
+          "cost": null,
+          "allowance": {
+            "BASIC": false,
+            "PRO": true,
+            "MAX": true
+          }
+        },
+        {
+          "feature": "Early access to new AI tools",
+          "cost": null,
+          "allowance": {
+            "BASIC": false,
+            "PRO": true,
+            "MAX": true
+          }
+        }
+      ]
+    }
+  }
+}

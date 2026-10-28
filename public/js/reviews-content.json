@@ -1,0 +1,25 @@
+{
+  "reviews": [
+    {
+      "title": "Real animation, not gimmicks",
+      "rating": 4,
+      "text": "Seedance 2.5 actually understands my input image. Movement feels intentional, not like a shaky filter.",
+      "avatarText": "sw",
+      "author": "Sofia Whitaker"
+    },
+    {
+      "title": "Incredible quality and speed",
+      "rating": 5,
+      "text": "The generation speed is unmatched. I can create professional campaigns in minutes instead of hours.",
+      "avatarText": "mj",
+      "author": "Marcus Johnson"
+    },
+    {
+      "title": "A game changer for creators",
+      "rating": 5,
+      "text": "This platform completely revolutionized how I create content. The tools are incredibly intuitive.",
+      "avatarText": "el",
+      "author": "Elena Lopez"
+    }
+  ]
+}

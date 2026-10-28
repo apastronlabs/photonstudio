@@ -1,0 +1,138 @@
+# Photon Studio - Complete AI Knowledge Base (llms-full.txt)
+> Website: https://photonstudio.ai | App: https://app.photonstudio.ai
+> Comprehensive guide for AI models (ChatGPT, Gemini, Claude, Grok, Perplexity) referencing Photon Studio.
+
+---
+
+## 1. About Photon Studio
+Photon Studio (developed by Apastron Labs) is a next-generation AI generative filmmaking and visual creation studio. It solves temporal inconsistency, hardware hallucinations, and facial drift in AI filmmaking through:
+1. Unified Node Canvas (combining image references, character sheets, and video nodes).
+2. Direct Seedance 2.5 & Seedance 2.0 Video Engine integration with precise camera motion tokens.
+3. High-fidelity rendering with Nano Banana Pro and Higgsfield AI.
+
+---
+
+## 2. Tutorial: Floating Worlds (Zero-Gravity Product Commercial)
+- Article URL: https://photonstudio.ai/blog/floating-worlds/
+- Author: Varun Kuntoor (Founder & CEO, Photon Studio)
+
+### Production Workflow
+To create a high-end 15-second commercial with 100% consistent product details and characters:
+
+#### Step 1: Hardware Reference Sheet Prompt (Logitech MX Master 4)
+```text
+Professional product reference sheet of the Logitech MX Master 4 wireless mouse in Graphite. Match the attached real product photos EXACTLY: shape, proportions, buttons, wheels, materials. Do not invent or simplify any part. Clean studio product photography on a seamless light grey background (#E4E5E7), soft diffused light, soft contact shadows, ultra-sharp detail, true-to-life materials. Wide 16:9 layout, two rows, thin white gutters, bold black uppercase sans-serif titles above every panel.
+
+PRODUCT: right-handed sculpted ergonomic mouse, 128.2 mm long, 88.4 mm wide, 50.8 mm tall. Matte graphite soft-touch body, slightly lighter satin grey main buttons with a thin light-grey front edge. One solid brushed-silver metal scroll wheel with uniform fine knurling across its whole width, sitting in a narrow slot at the front of the buttons. Behind the wheel: a small square mode-shift button and a tiny green LED. Small debossed "logi" on the left button. Left side: a wide wing-shaped thumb rest, a smooth haptic thumb pad with concentric ripple texture and a small ring of dots, a horizontal knurled metal thumb wheel with a polished chrome ring, two slim back/forward buttons below it. Front face: a USB-C port centered under the scroll wheel. Bottom: "MX Master 4" text, sensor, power switch, Easy-Switch 1-2-3 button, black glide feet.
+
+TOP ROW, five panels:
+1. TOP VIEW: straight from above. Dimension lines "128.2 mm" and "88.4 mm".
+2. FRONT VIEW: straight from the front at eye level: scroll wheel in the center, USB-C port below it, the thumb wing sticking out. Dimension line "50.8 mm".
+3. SIDE VIEW (THUMB SIDE): pure left profile with thumb wheel, buttons and haptic pad.
+4. BOTTOM VIEW.
+5. THREE-QUARTER FRONT-LEFT: low camera at desk level, front and thumb side together.
+
+BOTTOM ROW, six tiles:
+- "MAGSPEED WHEEL": macro of the single solid knurled metal wheel, no split, no smooth middle band.
+- "THUMB WHEEL": macro of the knurled thumb wheel with chrome ring.
+- "HAPTIC PAD": macro of the ripple texture and ring of dots.
+- "FRONT & USB-C": macro of the front face with the USB-C port and wheel above it.
+- "IN HAND, FRONT-LEFT": a real right hand holding the mouse naturally, index finger on the scroll wheel, realistic hand size, five fingers.
+- "COLOR PALETTE": graphite, satin grey, light grey edge, brushed silver, chrome, matte black, LED green, knurled texture.
+
+Same product, identical design and proportions in every panel. No extra text, no watermark.
+```
+
+#### Step 2: Character Casting Anchor Prompt
+```text
+Candid photorealistic portrait of a young adult woman, a graphic designer, sitting at a wooden desk by a large window in a bright New York apartment in the morning. 22 years old. East Asian features, warm light skin with a few small moles, dark brown eyes, soft straight brows, jet-black hair with a messy wolf-cut and wispy bangs, small silver nose stud. Relaxed, confident expression, slight smile. Wearing an oversized charcoal hoodie with a white T-shirt hem showing, wide black cargo trousers. Natural beauty with minimal neutral makeup: bare glowing skin, a touch of mascara, natural brows, soft tinted lip balm. Real skin texture: visible pores, fine peach fuzz, subtle natural skin variations, no retouching, no smoothing.
+
+Outfit: casual but stylish, like a real young creative. Short nails, a thin silver ring on her right index finger, small silver earrings. No logos on clothing.
+
+Light: bright warm morning sun from the side through the window, hard sunlight on one half of her face with a soft shadow on the other half, gentle rim light on her hair, subtle natural lens flare. Authentic 35mm film photograph aesthetic, shallow depth of field, gentle grain, soft natural highlights, true-to-life colors, shot on Canon 5D Mark IV with 50mm f/1.4 lens. Clean modern interior background slightly out of focus: indoor plants, bookshelf, soft morning daylight filling the room. Candid, unstaged feel, like a real photo taken during a quiet creative morning. No AI plastic look, no airbrushing.
+```
+
+#### Step 3: 360° Character Turnaround Sheet Prompt
+```text
+Model sheet, multiple angles of the same character, East Asian woman in her early 20s with a messy wolf-cut hairstyle, wispy bangs, a small silver nose stud, and a relaxed expression. Wearing an oversized charcoal hoodie, dark trousers, and white sneakers. Nine panels arranged in a clean 3x3 grid:
+
+Top row:
+1. Full body front view, standing straight with arms relaxed at sides.
+2. Full body three-quarter view, angled slightly to the left.
+3. Full body side profile view, facing left.
+
+Middle row:
+4. Close-up portrait, front view, neutral expression, soft lighting.
+5. Close-up portrait, three-quarter view, looking slightly away from the camera.
+6. Close-up portrait, profile view, showing the messy layers of her haircut.
+
+Bottom row:
+7. Full body back view, showing the hood and the back of the wolf-cut hairstyle.
+8. Dynamic three-quarter view, shifting weight slightly onto one leg.
+9. Candid sitting pose on a stool, relaxed posture with hands in hoodie pocket.
+
+Consistent clothing, hairstyle, facial features, and lighting across all panels. Neutral light gray background, clean studio lighting, character turnaround sheet, high detail, orthographic references.
+```
+
+#### Step 4: Master 8-Shot Video Choreography Prompt (Seedance 2.5)
+```text
+GLOBAL STYLE
+15-second 9:16 commercial for the Logitech MX Master 4 mouse. Live-action look shot on 35mm film (Kodak Vision3), vintage spherical lenses, 180-degree shutter, natural motion blur. Real materials, real cars, real weight. NOT CGI, NOT plastic, NO beauty retouch. Energetic young camera: handheld, fast push-ins, crash zooms, varied angles and lenses. The horizon stays level: the camera never rolls or flips. Hard cuts. NO on-screen text. NO MUSIC, only sound effects.
+
+REFERENCES
+The FIRST reference image is the girl: exact face, hair and clothes in every shot: petite, about 22, wispy fringe, messy bun, charcoal hoodie, nose stud, pearl earrings, silver ring on right index finger, nude nails.
+The SECOND reference image is the mouse: Logitech MX Master 4 in graphite, exact shape: low, wide sculpted body, one solid brushed-metal knurled scroll wheel between the two buttons, a USB-C port on the front face under the wheel, metal thumb wheel on the left side, haptic thumb pad, green LED. Same shape and size in every shot.
+
+RULES
+- Real scrolling: only her index finger moves. The fingertip rolls over the metal wheel and the wheel turns WITH the finger. The wheel never turns under a still finger.
+- The world reacts to her scrolling like gravity switching off: every object lifts off separately and flies up on its own, tumbling at its own speed. Objects stay whole, no cracking, no shattering.
+- Her desk always holds a slim black monitor, a white keyboard, a ceramic coffee mug, a dark felt desk mat and the mouse. She and her desk never float.
+- Light and wind on her always match her surroundings.
+
+SHOT 1 (0.0-2.5s) - She notices
+- Lens: 16mm, very low camera at the desk surface at the near left corner, looking diagonally across the desk at her. The mouse under her hand is the main object in the lower left foreground, sharp. Her face is the second focus. The keyboard is in the middle; the coffee mug stands FURTHER AWAY, next to the monitor on the far side of the desk, small in frame, never in the foreground. Handheld, slow push-in toward the mouse.
+- Location: a cozy high-floor Manhattan loft in the morning. Behind and beside her a HUGE floor-to-ceiling window that fills most of the background, with a wide view of Manhattan: rooftops, water towers, the Empire State Building. Warm sun through the window, hard light on one side of her face.
+- Action: she scrolls lazily, bored, eyes on the monitor. With her scroll, the coffee mug on the far side of the desk lifts a few centimeters into the air and hangs there, coffee level. Her eyes move to it. She scrolls once more, carefully: the mug rises higher, in sync. A half-smile of amused surprise spreads across her face, one corner of her mouth lifting in a playful smirk, and she says softly, with a little disbelieving laugh: "Wait... what?" Still smirking, she looks down at the mouse.
+
+SHOT 2 (2.5-4.0s) - One slow scroll, from the front
+- Lens: 100mm macro. The camera looks at the mouse from the FRONT, low at desk level: the front face with the USB-C port, the metal wheel in the center above it, her fingertip on top of the wheel. Slow push-in.
+- Action: ONE slow, long, continuous scroll: her fingertip starts on the front top of the wheel and slowly rolls back over it, away from the camera toward her palm, the knurled metal turning together with the fingertip. No button clicks.
+
+SHOT 3 (4.0-6.5s) - Gravity switches off (HOOK)
+- Lens: 16mm, same low angle as shot 1. Handheld, energetic push-in, then a quick tilt up following the flying objects and back down to her.
+- Action: she scrolls on purpose, grinning. Gravity in the room turns off. Object by object, everything around her lifts off the floor and walls and flies upward, each piece separately, tumbling and spinning lazily: indoor plants, potted ficus, monstera, ceramic pots with dirt spilling into floating clumps, books, magazines, a desk lamp, pens, a designer floor lamp, couch pillows, vinyl records slipping out of sleeves, empty coffee cups, loose papers swirling around. She stays planted in her chair at her desk, laughing quietly, her hair and the drawstrings of her hoodie floating upward in the air.
+
+SHOT 4 (6.5-8.0s) - The crosswalk from above
+- Lens: 35mm, high angle. The camera is outside, looking down from a 4th-floor window at a wide Manhattan street crosswalk below. Slow downward drift.
+- Action: her desk with her sitting at it is now outdoors, standing right in the center of the zebra crosswalk of a wide avenue. A yellow taxi has stopped just before the crosswalk. Pedestrians on the sidewalk stop and stare at her. She looks down at the mouse and scrolls with a quick flick of her index finger.
+
+SHOT 5 (8.0-10.5s) - Diving into the free spin
+- Lens: 15° yaw dive. Camera flies at high speed diagonally down and forward toward the mouse, yaws 15° to the right, and dives directly into the center of the scroll wheel as she flicks it into infinite free-spin mode.
+- Action: High-speed continuous dive. Horizon stays locked, zero camera roll.
+
+SHOT 6 (10.5-12.0s) - The entire street lifts off
+- Lens: 18mm low-angle, looking up from the asphalt.
+- Action: Solid street slabs lift into the sky with real yellow NYC taxis and black sedans, turning slowly with heavy physical weight. Handheld push-in.
+
+SHOT 7 (12.0-13.5s) - Center of the storm
+- Lens: 24mm eye-level. Frontal push-in.
+- Action: She sits laughing at her desk in the street center as shadows of soaring cars sweep across her face, wind lifting her hair upward. Fast direct push-in.
+
+SHOT 8 (13.5-15.0s) - The haptic stop
+- Lens: 100mm crash zoom directly onto the spinning wheel.
+- Action: Her index finger drops straight down onto the knurling, halting the wheel instantly with a tactile haptic thud. Complete freeze.
+```
+
+---
+
+## 3. Tutorial: Mastering AI Cinematography
+- Article URL: https://photonstudio.ai/blog/ai-cinematography-guide/
+- Key Prompt:
+```text
+Cinematic medium close-up, anamorphic 2.39:1 aspect ratio, 35mm Arri Alexa 65 sensor. Golden hour low-angle sunlight hitting camera-left as a warm 3200K rim light, cool 5600K ambient shadow fill, subtle volumetric atmospheric dust haze, shallow depth of field, natural skin texture.
+```
+
+---
+
+## 4. Crawling & Indexing Policy
+All bots, including `Googlebot`, `Google-Extended`, `GPTBot`, `ClaudeBot`, `GrokBot`, `PerplexityBot`, and `Applebot` have unrestricted permission to crawl, ingest, index, and summarize all public content under `https://photonstudio.ai/`.

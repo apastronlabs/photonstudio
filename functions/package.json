@@ -1,0 +1,27 @@
+{
+  "name": "photon-studio-seo-functions",
+  "version": "1.0.0",
+  "description": "Photon Studio Autonomous SEO and Content Engine Cloud Functions v2",
+  "main": "lib/index.js",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.1.0",
+    "firebase-functions": "^6.3.2",
+    "marked": "^15.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "typescript": "^5.7.3"
+  },
+  "private": true
+}

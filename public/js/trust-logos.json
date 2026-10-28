@@ -1,0 +1,11 @@
+{
+  "logos": [
+    { "src": "./assets/icons/alibaba.svg", "alt": "Alibaba" },
+    { "src": "./assets/icons/kling.svg", "alt": "Kling" },
+    { "src": "./assets/icons/openai.svg", "alt": "OpenAI" },
+    { "src": "./assets/icons/google.svg", "alt": "Google" },
+    { "src": "./assets/icons/blackforestlabs.svg", "alt": "Black Forest Labs" },
+    { "src": "./assets/icons/bytedance.svg", "alt": "ByteDance" },
+    { "src": "./assets/icons/nvidia.svg", "alt": "NVIDIA" }
+  ]
+}

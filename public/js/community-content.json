@@ -1,0 +1,146 @@
+{
+  "leftColumn": [
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Abstract%20Fashion.webp",
+      "avatarText": "A",
+      "handle": "Aria_Abstract"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Chessboard%20candid.webp",
+      "avatarText": "C",
+      "handle": "ChessMaster"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Disposable%20cam%20Snapshot.webp",
+      "avatarText": "C",
+      "handle": "CamSnap"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Europe%20in%20Japan.webp",
+      "avatarText": "T",
+      "handle": "Traveler_J"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Fashion%20(Bold).webp",
+      "avatarText": "B",
+      "handle": "BoldFashion"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/H%26M%20aesthetics.webp",
+      "avatarText": "A",
+      "handle": "AestheticHM"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Luxury%20Cosmetics.webp",
+      "avatarText": "C",
+      "handle": "CosmeticQueen"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Nighttime%20Park.webp",
+      "avatarText": "N",
+      "handle": "NightOwl"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Pixar%20style.webp",
+      "avatarText": "T",
+      "handle": "ToyStoryFan"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Portrait%20Selfie%20(F).webp",
+      "avatarText": "S",
+      "handle": "SlayGirl"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Queen%20of%20Spades.webp",
+      "avatarText": "C",
+      "handle": "CardPlay"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Retro%20Portrait.webp",
+      "avatarText": "V",
+      "handle": "VintageVibe"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Snoop%20Dog%20Figure.webp",
+      "avatarText": "S",
+      "handle": "SnoopFan"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/The%20Astronaut.webp",
+      "avatarText": "S",
+      "handle": "StarMan"
+    }
+  ],
+  "rightColumn": [
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Candid%20Portrait.webp",
+      "avatarText": "C",
+      "handle": "CandidBoy"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Cinematographer.webp",
+      "avatarText": "F",
+      "handle": "FilmDirector"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Doodles%20Concept.webp",
+      "avatarText": "D",
+      "handle": "DoodleConcept"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Eyewear%20fashion%20Editorial.webp",
+      "avatarText": "S",
+      "handle": "SpecFashion"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Fashion%20Editorial.webp",
+      "avatarText": "E",
+      "handle": "EditorialPro"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/London%20Flag%20Painting.webp",
+      "avatarText": "L",
+      "handle": "LondonArt"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Luxury%20streetwear.webp",
+      "avatarText": "S",
+      "handle": "StreetLuxury"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Noir%20Fashion.webp",
+      "avatarText": "N",
+      "handle": "NoirClassic"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Portrait%20(M).webp",
+      "avatarText": "M",
+      "handle": "ManPortrait"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Premium%20Fashion.webp",
+      "avatarText": "P",
+      "handle": "PremiumStyle"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Rainy%20Cafe.webp",
+      "avatarText": "C",
+      "handle": "CafeRain"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Sc-Fi%20Adventure.webp",
+      "avatarText": "S",
+      "handle": "SciFiGeek"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Sunset%20Selfie.webp",
+      "avatarText": "S",
+      "handle": "SunsetLover"
+    },
+    {
+      "bgImage": "https://media.photonstudio.ai/images/inspiration-images/Underwater%20Portrait.webp",
+      "avatarText": "A",
+      "handle": "AquaMan"
+    }
+  ]
+}

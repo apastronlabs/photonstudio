@@ -1,0 +1,65 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow Google & Gemini
+User-agent: Googlebot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Explicitly allow OpenAI (ChatGPT, SearchGPT, GPT-4o, o1, etc.)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+
+# Explicitly allow Anthropic (Claude 3.5 Sonnet, Claude 3 Opus)
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Explicitly allow xAI (Grok)
+User-agent: GrokBot
+Allow: /
+User-agent: xai-bot
+Allow: /
+
+# Explicitly allow Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Explicitly allow Apple & Siri Intelligence
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# Explicitly allow Cohere, Common Crawl & other AI researchers
+User-agent: cohere-ai
+Allow: /
+User-agent: CCBot
+Allow: /
+
+# Priority indexing paths
+Allow: /blog/
+Allow: /blog/*
+Allow: /topics/
+Allow: /topics/*
+Allow: /authors/
+Allow: /authors/*
+Allow: /imageGenerator.html
+Allow: /videoGenerator.html
+Allow: /audioGenerator.html
+Allow: /pricing.html
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /sitemap.xml
+
+# Sitemaps & Machine-Readable AI Context
+Sitemap: https://photonstudio.ai/sitemap.xml
+Sitemap: https://project-f5c327c2-981e-452a-90a.web.app/sitemap.xml

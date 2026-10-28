@@ -1,0 +1,884 @@
+/* Mobile Pricing Page Styles - Photon Studio */
+
+/* Use variables and styles from mobile.css */
+
+.pricing-page-body {
+    padding-top: 60px; /* Spacer for fixed mobile-nav */
+    background-color: #0c0d0f;
+}
+
+/* 1. Gradient Accent Header Bar */
+.top-accent-bar {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #ffbc00 0%, #ffd82a 50%, #fc8902 100%);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 1001;
+}
+
+/* 2. Top Banner Section */
+.pricing-hero-banner {
+    background: radial-gradient(circle at top, #1c0e20 0%, #0d0711 70%, #0c0d0f 100%);
+    padding: 40px 20px 30px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.special-badge {
+    background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 11px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 198, 255, 0.3);
+}
+
+.banner-headline {
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+    background: linear-gradient(to bottom, var(--text-white, #ffffff), var(--text-gray, #aeaeae));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.banner-headline .highlight {
+    color: #ffbc00; /* Gold highlight */
+    background: linear-gradient(135deg, #ffd82a 0%, #ffbc00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-subheadline {
+    color: #94a3b8;
+    font-size: 13px;
+    margin-bottom: 24px;
+    max-width: 90%;
+    line-height: 1.4;
+}
+
+/* 3. Burgundy Toggle Container */
+.billing-toggle-container {
+    background: #1e0915;
+    border: 1px solid #540c31;
+    border-radius: 14px;
+    display: flex;
+    width: 100%;
+    max-width: 340px;
+    padding: 4px;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.toggle-option {
+    flex: 1;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #8c7381;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.25s ease;
+}
+
+.toggle-option .subtext {
+    font-size: 10px;
+    font-weight: 600;
+    color: #8c7381;
+    margin-top: 2px;
+}
+
+.toggle-option.active {
+    background: #470823;
+    border-color: #90164c;
+    color: #ffffff;
+    box-shadow: inset 0 1px 3px rgba(255,255,255,0.1), 0 4px 10px rgba(71, 8, 35, 0.4);
+}
+
+.toggle-option.active .subtext {
+    color: #f43f5e; /* Bright pinkish red for "Save 30%" */
+}
+
+.toggle-option:not(.active) .subtext {
+    opacity: 0.7;
+}
+
+/* 4. Pricing Tickets Stack */
+/* 4. Pricing Tickets Stack */
+.pricing-stack {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 16px 24px;
+}
+
+.pricing-ticket {
+    border-radius: 20px;
+    padding: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+    background: #121315; /* Solid dark background matching mockup */
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+}
+
+.pricing-ticket.selected {
+    border-color: #ff0055;
+}
+
+.pricing-ticket.promax {
+    border: 2px solid #ff0055;
+    background: #1a050f; /* Deep burgundy background matching mockup */
+    box-shadow: 0 0 20px rgba(255, 0, 85, 0.2), 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.promax-header {
+    background: #ff0055;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 900;
+    text-align: center;
+    padding: 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    margin: -24px -24px 20px -24px;
+}
+
+/* Credits box inside ticket */
+.ticket-credits-box {
+    background: #1c1d20; /* Slightly lighter solid charcoal */
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ticket-credits-title {
+    font-size: 14px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.ticket-credits-title span {
+    font-weight: 900;
+}
+
+.ticket-credits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 11px;
+    color: #94a3b8;
+}
+
+/* Price row inside ticket */
+.ticket-price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ticket-price-row .price-amount {
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.ticket-price-row .price-period {
+    font-size: 11px;
+    color: #64748b;
+}
+
+/* Card Button */
+.ticket-btn {
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: none;
+    transition: background-color 0.2s, opacity 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-btn.white {
+    background: #ffffff;
+    color: #000000;
+}
+
+.ticket-btn.red {
+    background: #ff0055;
+    color: #ffffff;
+}
+
+.ticket-btn:active {
+    opacity: 0.9;
+    transform: scale(0.98);
+}
+
+.seedance-unlimited-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 100%;
+    padding: 10px 8px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #ffd633 0%, #ffbf18 55%, #ffa606 100%);
+    color: #000000 !important;
+    font-family: var(--font-secondary, 'Inter', -apple-system, BlinkMacSystemFont, sans-serif);
+    font-weight: 800;
+    font-size: 11.5px;
+    letter-spacing: -0.1px;
+    white-space: nowrap;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.7), 0 2px 8px rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+    transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
+    user-select: none;
+    margin-bottom: 16px;
+}
+
+.cancel-guarantee-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    padding: 10px 14px 8px;
+    margin-top: -6px;
+    margin-bottom: 20px;
+    font-family: var(--font-secondary, 'Inter', -apple-system, BlinkMacSystemFont, sans-serif);
+    font-size: 11.5px;
+    color: #f1f5f9;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    position: relative;
+    z-index: 1;
+}
+
+.cancel-guarantee-card svg {
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    fill: #ffffff;
+}
+
+@media (max-width: 350px) {
+    .seedance-unlimited-btn {
+        font-size: 10.5px;
+        gap: 5px;
+        padding: 9px 4px;
+    }
+}
+
+.seedance-unlimited-btn:hover {
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.8), 0 4px 12px rgba(0, 0, 0, 0.45);
+}
+
+.seedance-unlimited-btn:active {
+    transform: translateY(0);
+    filter: brightness(0.97);
+}
+
+.seedance-unlimited-btn svg {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+}
+
+/* Sub Box sections inside card (Seedance and 7-day) */
+.sub-box {
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.sub-box.blue {
+    background: linear-gradient(180deg, rgba(56, 189, 248, 0.12) 0%, rgba(56, 189, 248, 0.03) 100%);
+    border: 1px solid rgba(56, 189, 248, 0.15);
+}
+
+.sub-box.dark {
+    background: #161719;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sub-box-title {
+    font-size: 12px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.sub-box-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    color: #cbd5e1;
+    margin-bottom: 8px;
+}
+
+.sub-box-item:last-child {
+    margin-bottom: 0;
+}
+
+.badge-pill {
+    font-size: 8px;
+    font-weight: 900;
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.badge-pill.green {
+    background: #ffbc00;
+    color: #000000;
+}
+
+.badge-pill.grey {
+    background: #27282b;
+    color: #94a3b8;
+}
+
+/* Features List inside Tickets */
+.ticket-features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.feature-icon {
+    font-size: 16px;
+    font-weight: bold;
+    flex-shrink: 0;
+    margin-top: -1px;
+}
+
+.feature-item.muted {
+    opacity: 0.4;
+    text-decoration: line-through;
+}
+
+/* Action CTA Button */
+.pricing-action-wrapper {
+    width: 100%;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.action-cta {
+    background: linear-gradient(45deg, var(--primary), var(--accent-4), var(--primary));
+    color: #000;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 12px;
+    border: none;
+    width: 100%;
+    max-width: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0 6px 0 var(--shadow-3d), 0 8px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.action-cta:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 var(--shadow-3d), 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cta-tagline {
+    font-size: 11px;
+    color: #94a3b8;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.payment-badges-row {
+    display: flex;
+    gap: 6px;
+    margin-top: 16px;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.payment-badge {
+    height: 14px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Security Trust Text Box */
+.security-note-container {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.security-note {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
+    padding: 16px;
+    font-size: 11px;
+    color: #64748b;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.security-note p {
+    margin: 0;
+}
+
+/* 5. Sticky Bottom Bar */
+.sticky-bottom-bar {
+    position: fixed;
+    bottom: -120px; /* Initially hidden */
+    left: 0;
+    width: 100%;
+    height: 84px;
+    background: rgba(12, 13, 15, 0.95);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 999;
+    box-shadow: 0 -8px 25px rgba(0, 0, 0, 0.6);
+    transition: bottom 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sticky-bottom-bar.visible {
+    bottom: 0;
+}
+
+.sticky-timer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.sticky-timer-label {
+    font-size: 9px;
+    font-weight: 800;
+    color: #e11d48;
+    letter-spacing: 0.5px;
+}
+
+.sticky-timer-display {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #ff0055;
+    font-family: 'Archivo', sans-serif;
+}
+
+.sticky-timer-display .material-icons {
+    color: #ff0055;
+}
+
+.sticky-action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.sticky-cta-btn {
+    background: linear-gradient(45deg, var(--primary), var(--accent-4), var(--primary));
+    color: #000;
+    font-weight: 900;
+    font-size: 13px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 0 var(--shadow-3d), 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.sticky-cta-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 var(--shadow-3d), 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.sticky-billing-text {
+    font-size: 9px;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+/* 6. Section 2 — Top-Tier Models */
+.models-showcase-section {
+    padding: 50px 20px;
+    background: linear-gradient(180deg, #0c0d0f 0%, #111b24 50%, #0c0d0f 100%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.models-title {
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+    background: linear-gradient(to bottom, var(--text-white, #ffffff), var(--text-gray, #aeaeae));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.models-subtitle {
+    color: #94a3b8;
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+.model-glass-box {
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.15) 0%, rgba(56, 189, 248, 0.03) 100%);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 320px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(56, 189, 248, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.glass-box-item {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.glass-box-item:last-child {
+    margin-bottom: 0;
+}
+
+.glass-box-item svg {
+    color: #38bdf8;
+    flex-shrink: 0;
+}
+
+.pills-horizontal-scroll {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    max-width: 320px;
+    overflow-x: auto;
+    padding: 4px 4px 10px;
+    scrollbar-width: none;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.pills-horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.model-pill {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #94a3b8;
+    white-space: nowrap;
+}
+
+/* 7. Redesigned Character Control Section (AI Avatar Mockup) */
+.character-control-section {
+    padding: 50px 20px;
+    background: radial-gradient(circle at center, #1b1d22 0%, #0c0d0f 100%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.trend-badge {
+    display: inline-flex;
+    align-items: center;
+    background: #27282a;
+    border-radius: 20px;
+    padding: 3px;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.trend-accent {
+    background: #3e3f42;
+    color: #ffbc00;
+    font-size: 9px;
+    font-weight: 900;
+    font-style: italic;
+    padding: 4px 10px;
+    border-radius: 16px;
+    letter-spacing: 0.5px;
+}
+
+.trend-text {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.char-title {
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    background: linear-gradient(to bottom, var(--text-white, #ffffff), var(--text-gray, #aeaeae));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.char-subtitle {
+    color: #94a3b8;
+    font-size: 12px;
+    margin-bottom: 24px;
+    max-width: 90%;
+    line-height: 1.4;
+}
+
+.avatar-tabs-container {
+    background: #121315;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
+    display: flex;
+    width: 100%;
+    max-width: 340px;
+    padding: 4px;
+    gap: 4px;
+    margin-bottom: 24px;
+}
+
+.avatar-tab {
+    flex: 1;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    color: #64748b;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 10px 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.avatar-tab.active {
+    background: #27282a;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-showcase-card {
+    width: 100%;
+    max-width: 340px;
+    height: 380px;
+    border-radius: 24px;
+    background: #121315;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.avatar-main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.25s ease;
+}
+
+.avatar-spec-card {
+    position: absolute;
+    background: rgba(18, 19, 21, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 14px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.spec-img-placeholder {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    transition: background 0.25s ease;
+}
+
+.spec-label {
+    font-size: 8px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.avatar-spec-card.top-left {
+    top: 15%;
+    left: 6%;
+}
+
+.avatar-spec-card.top-right {
+    top: 30%;
+    right: 6%;
+}
+
+.avatar-spec-card.bottom-left {
+    bottom: 12%;
+    left: 6%;
+}
+
+.avatar-spec-card.bottom-right {
+    bottom: 15%;
+    right: 6%;
+}
+
+/* Bottom banner styles repeating */
+.bottom-banner-repeater {
+    background: radial-gradient(circle at bottom, #1c0e20 0%, #0c0d0f 100%);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 50px 20px 70px; /* Extra bottom padding for sticky bar */
+}
+
+/* Customize mobile.css pricing table for this page */
+.pricing-page-body .pricing-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pricing-page-body .pricing-heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.pricing-page-body .pricing-row {
+    grid-template-columns: 1fr 60px 70px;
+}
+
+.pricing-page-body .pricing-plus-bg {
+    width: 70px;
+}
+
+

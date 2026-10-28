@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V9BK0WHBZ1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V9BK0WHBZ1');
+</script>
+    <link rel="icon" type="image/png" href="./assets/Logo - Favicon.png">
+    <script>
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            window.location.replace("mobile.html" + window.location.search);
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Photon Studio - AI Audio Generation - GPT-Image-2, Nano Banana 2, Eleven v3, Seedream 5.0, Grok Imagine, Recraft, Reve. Create stunning AI images for free.">
+    <meta name="keywords"
+        content="Photon Studio, AI Audio Generation, GPT-Image-2, Nano Banana 2, Eleven v3, Seedream 5.0, Grok Imagine, Recraft, Reve">
+    <title>Photon Studio | AI Audio Generation</title>
+
+    <link rel="prefetch" href="https://app.photonstudio.ai/audioGenerator">
+
+    <!-- Fonts and existing CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css?v=1.0.3">
+
+    <link rel="stylesheet" href="./css/audioGenerator.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- Section 1 Navbar -->
+        <header class="navbar" id="navbar" style="z-index: 10;"></header>
+        <div class="navbar-spacer"></div>
+
+        <div class="sub-nav-pills">
+            <button class="pill-btn">All</button>
+            <button class="pill-btn active">
+                <span class="material-icons" style="font-size: 16px;">record_voice_over</span> Voice
+            </button>
+        </div>
+
+        <div class="audio-hero-section">
+            <div class="hero-content">
+                <div class="hero-mosaic-bg">
+                    <div class="mosaic-row">
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-1"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-2"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-1"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-2"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-1"></div>
+                    </div>
+                    <div class="mosaic-row">
+                        <div class="mosaic-cell f-2"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-1"></div>
+                        <div class="mosaic-cell f-3"></div>
+                        <div class="mosaic-cell f-3"></div>
+                        <div class="mosaic-cell f-2"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-1"></div>
+                        <div class="mosaic-cell f-3"></div>
+                        <div class="mosaic-cell"></div>
+                    </div>
+                    <div class="mosaic-row">
+                        <div class="mosaic-cell f-1"></div>
+                        <div class="mosaic-cell f-2"></div>
+                        <div class="mosaic-cell f-3"></div>
+                        <div class="mosaic-cell f-1"></div>
+                        <div class="mosaic-cell f-2"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-3"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-1"></div>
+                        <div class="mosaic-cell"></div>
+                    </div>
+                    <div class="mosaic-row">
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-1"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-2"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell f-1"></div>
+                        <div class="mosaic-cell f-2"></div>
+                        <div class="mosaic-cell"></div>
+                        <div class="mosaic-cell"></div>
+                    </div>
+                </div>
+                <div class="hero-label">AUDIO</div>
+                <h1 class="hero-heading">
+                    Ready to create your<br>
+                    <span class="highlight">voice now?</span>
+                </h1>
+            </div>
+
+            <div class="waveform-container">
+                <img src="./assets/images/Audio%20Waveform%20-%20Photon%20Studio.png" alt="Audio Waveform"
+                    class="waveform-image">
+            </div>
+        </div>
+
+        <div class="prompter-box" style="cursor: pointer;">
+            <div class="prompter-top">
+                <button class="icon-btn">
+                    <span class="material-icons">library_music</span>
+                </button>
+            </div>
+            <div class="prompter-text">[prompt]</div>
+            <div class="prompter-bottom">
+                <div class="model-controls">
+                    <div class="model-btn" id="model-name-btn">Eleven v3</div>
+                    <div class="model-btn"><span class="material-icons" style="font-size:14px">diamond</span> 2K</div>
+                    <div class="model-btn"><span class="material-icons" style="font-size:14px">grid_4x4</span> 3:4</div>
+                </div>
+                <button class="generate-btn">
+                    Generate <span class="material-icons">mic</span>
+                </button>
+            </div>
+        </div>
+
+        <footer class="footer" id="footer"></footer>
+    </div>
+
+    <script type="module">
+        import { initNavbar } from './js/navbar.js?v=1.0.3';
+        import { initTheme } from './js/theme.js?v=1.0.3';
+        import { renderFooter } from './js/footer.js?v=1.0.3';
+
+        async function init() {
+            await initTheme();
+            await initNavbar();
+
+            const navData = await fetch('./js/nav-data.json?v=1.0.3').then(r => r.json());
+            renderFooter(navData);
+
+            // Set "Image" tab as active
+            setTimeout(() => {
+                const navLinks = document.querySelectorAll('.navbar__link');
+                navLinks.forEach(link => {
+                    if (link.textContent.trim() === 'Audio') {
+                        link.style.color = 'var(--primary, #FFD600)';
+                        link.style.fontWeight = '600';
+                    }
+                });
+            }, 500);
+
+
+
+            // Page Parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const modelParam = urlParams.get('model');
+            if (modelParam) {
+                document.getElementById('model-name-btn').textContent = modelParam;
+            }
+
+            // Redirect all clicks to the app (except navbar and footer and prompter)
+            document.body.addEventListener('click', (e) => {
+                if (e.target.closest('.navbar') || e.target.closest('.footer')) return;
+                // e.preventDefault(); // Don't prevent default, just change location
+                window.location.href = 'https://app.photonstudio.ai/audioGenerator';
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+
+        // Register Service Worker for caching media
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('Service Worker registered successfully:', reg.scope))
+                    .catch(err => console.error('Service Worker registration failed:', err));
+            });
+        }
+    </script>
+
+    <!-- Hidden Preload Modal -->
+    <script>
+        (function() {
+            const loadPreloadIframe = () => {
+                if (document.getElementById('photon-preload-modal')) return;
+                const iframe = document.createElement('iframe');
+                iframe.src = "https://app.photonstudio.ai/login";
+                iframe.id = 'photon-preload-modal';
+                iframe.style.position = 'fixed';
+                iframe.style.top = '50%';
+                iframe.style.left = '50%';
+                iframe.style.transform = 'translate(-50%, -50%)';
+                iframe.style.width = '60vw';
+                iframe.style.height = '80vh';
+                iframe.style.border = 'none';
+                iframe.style.borderRadius = '16px';
+                iframe.style.display = 'none'; // Hidden modal
+                document.body.appendChild(iframe);
+            };
+            if (document.readyState === 'complete') {
+                setTimeout(loadPreloadIframe, 100);
+            } else {
+                window.addEventListener('load', () => setTimeout(loadPreloadIframe, 100));
+            }
+        })();
+    </script>
+</body>
+
+</html>

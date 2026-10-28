@@ -1,0 +1,20 @@
+{
+  "heroVideos": [
+    {
+      "src": "https://media.photonstudio.ai/videos/photonstudio%20-%20astronaut.mp4",
+      "label": "Cinema Studio"
+    },
+    {
+      "src": "https://media.photonstudio.ai/videos/photonstudio%20-%20cooking.mp4",
+      "label": "Marketing Studio"
+    },
+    {
+      "src": "https://media.photonstudio.ai/videos/photonstudio%20seedance-2-0-explore.mp4",
+      "label": "Seedance 2.5"
+    },
+    {
+      "src": "https://media.photonstudio.ai/videos/photonstudio%20-%20viral%20reel.mp4",
+      "label": "Viral Reel"
+    }
+  ]
+}

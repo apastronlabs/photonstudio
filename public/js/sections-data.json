@@ -1,0 +1,229 @@
+{
+  "sections": [
+    {
+      "id": "section-4",
+      "title": "Meet GPT Image 2",
+      "paragraph": "4K images with near-perfect text rendering",
+      "buttonText": "Try It Out",
+      "buttonHref": "imageGenerator.html?model=GPT-Image-2",
+      "heroImage": "https://media.photonstudio.ai/images/section-images/Meet%20GPT%20Image%202.png",
+      "bentoItems": [
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Abstract%20Fashion.webp",
+          "label": "Abstract Fashion"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Chessboard%20candid.webp",
+          "label": "Chessboard candid"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Disposable%20cam%20Snapshot.webp",
+          "label": "Disposable cam Snapshot"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Europe%20in%20Japan.webp",
+          "label": "Europe in Japan"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Fashion%20(Bold).webp",
+          "label": "Fashion (Bold)"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/H%26M%20aesthetics.webp",
+          "label": "H&M aesthetics"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Luxury%20Cosmetics.webp",
+          "label": "Luxury Cosmetics"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Nighttime%20Park.webp",
+          "label": "Nighttime Park"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Pixar%20style.webp",
+          "label": "Pixar style"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Portrait%20Selfie%20(F).webp",
+          "label": "Portrait Selfie (F)"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Queen%20of%20Spades.webp",
+          "label": "Queen of Spades"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Retro%20Portrait.webp",
+          "label": "Retro Portrait"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Snoop%20Dog%20Figure.webp",
+          "label": "Snoop Dog Figure"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/The%20Astronaut.webp",
+          "label": "The Astronaut"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Candid%20Portrait.webp",
+          "label": "Candid Portrait"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Cinematographer.webp",
+          "label": "Cinematographer"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Doodles%20Concept.webp",
+          "label": "Doodles Concept"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Eyewear%20fashion%20Editorial.webp",
+          "label": "Eyewear fashion Editorial"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Fashion%20Editorial.webp",
+          "label": "Fashion Editorial"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/London%20Flag%20Painting.webp",
+          "label": "London Flag Painting"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Luxury%20streetwear.webp",
+          "label": "Luxury streetwear"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Noir%20Fashion.webp",
+          "label": "Noir Fashion"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Portrait%20(M).webp",
+          "label": "Portrait (M)"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Premium%20Fashion.webp",
+          "label": "Premium Fashion"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Rainy%20Cafe.webp",
+          "label": "Rainy Cafe"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Sc-Fi%20Adventure.webp",
+          "label": "Sc-Fi Adventure"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Sunset%20Selfie.webp",
+          "label": "Sunset Selfie"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/images/inspiration-images/Underwater%20Portrait.webp",
+          "label": "Underwater Portrait"
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "title": "Seedance 2.5 \n now in 1080p resolution",
+      "paragraph": "Seedance 2.5 now generates 1080p videos up to 3 minutes long. All for just $1 per minute",
+      "buttonText": "Try It Out",
+      "buttonHref": "videoGenerator.html?model=Seedance%202.5",
+      "heroImage": "https://media.photonstudio.ai/images/section-images/Seedance%202.5%20now%20in%201080p%20resolution.png",
+      "bentoItems": [
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/photonstudio%20-%20surfing.mp4",
+          "label": "Surfing"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/photonstudio%20seedance-2-0-explore.mp4",
+          "label": "Seedance Explore"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/photonstudio%20-%20anime%20bts.mp4",
+          "label": "Anime BTS"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/UGC%20Product%20review.mp4",
+          "label": "UGC Product Review"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/photonstudio%20-%20cooking.mp4",
+          "label": "Cooking"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/photonstudio%20-%20astronaut.mp4",
+          "label": "Astronaut"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/photonstudio%20-%20anime%20live%20theatre.mp4",
+          "label": "Anime Live Theatre"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/photonstudio%20-%20samurai.mp4",
+          "label": "Samurai"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/UGC%20Try%20on.mp4",
+          "label": "UGC Try On"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/UGC%20Cinema.mp4",
+          "label": "UGC Cinema"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/Cool%20Cinematics.mp4",
+          "label": "Cool Cinematics"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/Product%20Review.mp4",
+          "label": "Product Review"
+        },
+        {
+          "type": "landscape",
+          "imageUrl": "https://media.photonstudio.ai/videos/photonstudio%20-%20viral%20reel.mp4",
+          "label": "Viral Reel"
+        }
+      ]
+    }
+  ]
+}

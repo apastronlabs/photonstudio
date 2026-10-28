@@ -1,0 +1,9 @@
+{
+  "logo": {
+    "type": "image",
+    "text": "PhotonStudio",
+    "imageUrl": "assets/Logo - Favicon.png"
+  },
+  "siteName": "Photon Studio",
+  "tagline": "The Ultimate AI Creative Suite"
+}

@@ -1,0 +1,352 @@
+{
+  "navItems": [
+    {
+      "label": "Explore",
+      "href": "index.html",
+      "subItems": null
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "label": "Image",
+      "href": "imageGenerator.html",
+      "subItems": {
+        "columns": [
+          {
+            "heading": null,
+            "items": [
+              {
+                "label": "Create Image",
+                "href": "imageGenerator.html",
+                "icon": "create-image",
+                "description": "Advanced create image tools"
+              },
+              {
+                "label": "Camera Angles",
+                "href": "imageGenerator.html",
+                "icon": "cinematic_camera",
+                "description": "Advanced camera angles tools"
+              },
+              {
+                "label": "Canvas",
+                "href": "imageGenerator.html",
+                "icon": "canvas",
+                "description": "Advanced canvas tools"
+              },
+              {
+                "label": "Relighting",
+                "href": "imageGenerator.html",
+                "icon": "sun",
+                "description": "Advanced relighting tools"
+              },
+              {
+                "label": "Re-Character",
+                "href": "imageGenerator.html",
+                "icon": "user",
+                "description": "Advanced re-character tools"
+              },
+              {
+                "label": "InPaint",
+                "href": "imageGenerator.html",
+                "icon": "brush",
+                "description": "Advanced inpaint tools"
+              },
+              {
+                "label": "Upscale",
+                "href": "imageGenerator.html",
+                "icon": "maximize",
+                "description": "Advanced upscale tools"
+              },
+              {
+                "label": "Face Swap",
+                "href": "imageGenerator.html",
+                "icon": "smile",
+                "description": "Advanced face swap tools"
+              },
+              {
+                "label": "Character Swap",
+                "href": "imageGenerator.html",
+                "icon": "users",
+                "description": "Advanced character swap tools"
+              },
+              {
+                "label": "Fashion Try-On",
+                "href": "imageGenerator.html",
+                "icon": "shirt",
+                "description": "Advanced fashion try-on tools"
+              },
+              {
+                "label": "AI Influencer",
+                "href": "imageGenerator.html",
+                "icon": "star",
+                "description": "Advanced ai influencer tools"
+              }
+            ]
+          },
+          {
+            "heading": null,
+            "items": [
+              {
+                "label": "Nano-Banana-2.1",
+                "href": "imageGenerator.html?model=Nano-Banana-2.1",
+                "icon": "google",
+                "description": "Advanced nano-banana-2.1 tools"
+              },
+              {
+                "label": "ChatGPT-Image 2.1",
+                "href": "imageGenerator.html?model=ChatGPT-Image%202.1",
+                "icon": "openai",
+                "description": "Advanced chatgpt-image 2.1 tools"
+              },
+              {
+                "label": "Grok Imagine",
+                "href": "imageGenerator.html?model=Grok%20Imagine",
+                "icon": "grok",
+                "description": "Advanced grok imagine tools"
+              },
+              {
+                "label": "Seedream 5.0",
+                "href": "imageGenerator.html?model=Seedream%205.0",
+                "icon": "bytedance",
+                "description": "Advanced seedream 5.0 tools"
+              },
+              {
+                "label": "Flux 2.0",
+                "href": "imageGenerator.html?model=Flux%202.0",
+                "icon": "blackforestlabs",
+                "description": "Advanced flux 2.0 tools"
+              },
+              {
+                "label": "Z-Image",
+                "href": "imageGenerator.html?model=Z-Image",
+                "icon": "zai",
+                "description": "Advanced z-image tools"
+              },
+              {
+                "label": "Topaz",
+                "href": "imageGenerator.html?model=Topaz",
+                "icon": "topazlabs",
+                "description": "Advanced topaz tools"
+              },
+              {
+                "label": "Reve",
+                "href": "imageGenerator.html?model=Reve",
+                "icon": "reve",
+                "description": "Advanced reve tools"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "Video",
+      "href": "videoGenerator.html",
+      "subItems": {
+        "columns": [
+          {
+            "heading": null,
+            "items": [
+              {
+                "label": "Create Video",
+                "href": "#create-video",
+                "icon": "video",
+                "description": "Advanced create video tools"
+              },
+              {
+                "label": "Edit Video",
+                "href": "#edit-video",
+                "icon": "scissors",
+                "description": "Advanced edit video tools"
+              },
+              {
+                "label": "Cinema Studio",
+                "href": "#cinema-studio-video",
+                "icon": "film",
+                "description": "Advanced cinema studio tools"
+              },
+              {
+                "label": "Re-Cast Studio",
+                "href": "#recast-studio",
+                "icon": "cast",
+                "description": "Advanced re-cast studio tools"
+              },
+              {
+                "label": "Video Upscale",
+                "href": "#video-upscale",
+                "icon": "maximize",
+                "description": "Advanced video upscale tools"
+              },
+              {
+                "label": "UGC Videos",
+                "href": "#ugc-videos",
+                "icon": "upload",
+                "description": "Advanced ugc videos tools"
+              },
+              {
+                "label": "AI Influencer",
+                "href": "#ai-influencer-videos",
+                "icon": "star",
+                "description": "Advanced ai influencer tools"
+              },
+              {
+                "label": "Video Motion Control",
+                "href": "#video-motion-control",
+                "icon": "move",
+                "description": "Advanced video motion control tools"
+              }
+            ]
+          },
+          {
+            "heading": null,
+            "items": [
+              {
+                "label": "Veo 3.1",
+                "href": "videoGenerator.html?model=Veo%203.1",
+                "icon": "google",
+                "description": "Advanced veo 3.1 tools"
+              },
+              {
+                "label": "Seedance 2.5",
+                "href": "videoGenerator.html?model=Seedance%202.5",
+                "icon": "bytedance",
+                "description": "Advanced seedance 2.5 tools"
+              },
+              {
+                "label": "Grok Imagine",
+                "href": "videoGenerator.html?model=Grok%20Imagine",
+                "icon": "grok",
+                "description": "Advanced grok imagine tools"
+              },
+              {
+                "label": "MiniMax H3",
+                "href": "videoGenerator.html?model=MiniMax%20H3",
+                "icon": "minimax",
+                "description": "Advanced minimax h3 tools"
+              },
+              {
+                "label": "Kling 4.0",
+                "href": "videoGenerator.html?model=Kling%204.0",
+                "icon": "kling",
+                "description": "Advanced kling 4.0 tools"
+              },
+              {
+                "label": "Wan 3.0",
+                "href": "videoGenerator.html?model=Wan%203.0",
+                "icon": "alibaba",
+                "description": "Advanced wan 3.0 tools"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "Audio",
+      "href": "audioGenerator.html",
+      "subItems": {
+        "columns": [
+          {
+            "heading": null,
+            "items": [
+              {
+                "label": "Voiceover",
+                "href": "#voiceover",
+                "icon": "mic",
+                "description": "Advanced voiceover tools"
+              },
+              {
+                "label": "Change Voice",
+                "href": "#change-voice",
+                "icon": "repeat",
+                "description": "Advanced change voice tools"
+              },
+              {
+                "label": "Translate",
+                "href": "#translate",
+                "icon": "globe",
+                "description": "Advanced translate tools"
+              }
+            ]
+          },
+          {
+            "heading": null,
+            "items": [
+              {
+                "label": "Eleven v3",
+                "href": "audioGenerator.html?model=Eleven%20v3",
+                "icon": "elevenlabs",
+                "description": "Advanced eleven v3 tools"
+              },
+              {
+                "label": "Seed Speech",
+                "href": "audioGenerator.html?model=Seed%20Speech",
+                "icon": "bytedance",
+                "description": "Advanced seed speech tools"
+              },
+              {
+                "label": "Wisper",
+                "href": "audioGenerator.html?model=Wisper",
+                "icon": "openai",
+                "description": "Advanced wisper tools"
+              },
+              {
+                "label": "MinMax Speech 2.8",
+                "href": "audioGenerator.html?model=MinMax%20Speech%202.8",
+                "icon": "minimax",
+                "description": "Advanced minmax speech 2.8 tools"
+              },
+              {
+                "label": "VibeVoice",
+                "href": "audioGenerator.html?model=VibeVoice",
+                "icon": "suno",
+                "description": "Advanced vibevoice tools"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "label": "Canvas",
+      "href": "https://app.photonstudio.ai/canvasGenerator",
+      "subItems": null
+    },
+    {
+      "label": "Ads Factory",
+      "href": "https://app.photonstudio.ai/adsFactory",
+      "subItems": null
+    },
+    {
+      "label": "Cinema Factory",
+      "href": "https://app.photonstudio.ai/cinemaFactory",
+      "subItems": null
+    },
+    {
+      "label": "Influencer",
+      "href": "https://app.photonstudio.ai/influencer",
+      "subItems": null
+    },
+    {
+      "label": "Apps",
+      "href": "https://app.photonstudio.ai/apps",
+      "subItems": null
+    }
+  ],
+  "actionButtons": [
+    {
+      "label": "Pricing",
+      "href": "pricing.html",
+      "type": "secondary"
+    },
+    {
+      "label": "Login",
+      "href": "https://app.photonstudio.ai/login",
+      "type": "primary"
+    }
+  ]
+}

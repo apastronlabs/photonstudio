@@ -1,0 +1,201 @@
+body, html {
+            margin: 0; padding: 0; 
+            min-height: 100vh;
+            background-color: var(--bg, #111111);
+            color: var(--text-white, white);
+            font-family: 'Inter', sans-serif;
+        }
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            position: relative;
+        }
+        
+        .sub-nav {
+            display: flex;
+            gap: 16px;
+            padding: 16px 24px;
+            z-index: 2;
+        }
+        .sub-nav-btn {
+            background-color: #1c1c1c;
+            color: #ccc;
+            border: 1px solid #333;
+            border-radius: 20px;
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+        .sub-nav-btn:hover {
+            background-color: #333;
+            color: white;
+        }
+        .sub-nav-btn.active {
+            background-color: #333;
+            color: white;
+        }
+        
+        .masonry-bg {
+            padding: 24px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            z-index: 1;
+            padding-bottom: 200px; /* Leave space for prompter box */
+        }
+        @media (max-width: 1024px) {
+            .masonry-bg { grid-template-columns: repeat(3, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .masonry-bg { grid-template-columns: repeat(2, 1fr); }
+        }
+        
+        .masonry-column {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .image-card {
+            position: relative;
+            width: 100%;
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        .image-card img {
+            width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+        .image-card .recreate-btn {
+            position: absolute;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: none;
+            border-radius: 20px;
+            padding: 6px 16px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .prompter-box {
+            position: fixed;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 800px;
+            max-width: 90%;
+            background: rgba(26, 26, 26, 0.4);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+            z-index: 6;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+        }
+        .prompter-top {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+        .icon-btn {
+            color: white;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            padding: 8px;
+            background: rgba(0,0,0,0.4);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+        .icon-btn:hover {
+            background: rgba(0,0,0,0.6);
+        }
+        .prompter-text {
+            color: #ccc;
+            font-size: 14px;
+            font-family: 'Archivo', sans-serif;
+        }
+        .prompter-input {
+            width: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 15px;
+            font-family: 'Inter', sans-serif;
+            resize: none;
+            line-height: 1.5;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .prompter-input::placeholder {
+            color: rgba(255, 255, 255, 0.45);
+        }
+        .prompter-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .model-controls {
+            display: flex;
+            gap: 12px;
+        }
+        .model-btn {
+            background-color: rgba(17,17,17,0.6);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 8px 12px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* 3D Gradient Yellow Buttons */
+        .generate-btn, .recreate-btn {
+            background: linear-gradient(40deg, var(--primary, #ffbc00), var(--accent-4, #ffd82a), var(--primary, #ffbc00));
+            box-shadow: 0px 4px 0px var(--shadow-3d, #d88f00);
+            color: black;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: transform 0.1s, box-shadow 0.1s;
+        }
+        .generate-btn {
+            border-radius: 12px;
+            padding: 12px 24px;
+            font-size: 16px;
+        }
+        .recreate-btn {
+            border-radius: 20px;
+            padding: 6px 16px;
+            font-size: 12px;
+        }
+        .generate-btn:active, .recreate-btn:active {
+            transform: translateY(4px);
+            box-shadow: 0px 0px 0px var(--shadow-3d, #d88f00) !important; /* using !important to ensure absolute position translation works nicely, actually translateY is better */
+        }
+        .recreate-btn:active {
+            transform: translateX(-50%) translateY(4px); /* combine with horizontal centering */
+        }

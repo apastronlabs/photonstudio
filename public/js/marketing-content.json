@@ -1,0 +1,19 @@
+{
+  "carousel": [
+    {
+      "video": "https://media.photonstudio.ai/videos/UGC%20Cinema.mp4",
+      "title": "UGC Cinema",
+      "subtitle": "Pure Cinema, product as hero"
+    },
+    {
+      "video": "https://media.photonstudio.ai/videos/UGC%20Product%20review.mp4",
+      "title": "Product Review",
+      "subtitle": "Hands-on authentic feel"
+    },
+    {
+      "video": "https://media.photonstudio.ai/videos/UGC%20Try%20on.mp4",
+      "title": "UGC Try On",
+      "subtitle": "UGC Style try any product"
+    }
+  ]
+}

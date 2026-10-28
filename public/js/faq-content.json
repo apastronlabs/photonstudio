@@ -1,0 +1,28 @@
+{
+  "faqs": [
+    {
+      "question": "What are SORA 2's key strengths?",
+      "answer": "SORA 2 offers unparalleled video generation capabilities..."
+    },
+    {
+      "question": "How should I structure prompt for best result?",
+      "answer": "Lead with subject and action, then camera/lens, lighting, setting, and style. Keep the hierarchy clear and specific."
+    },
+    {
+      "question": "When should I use a Short Prompt?",
+      "answer": "Use a short prompt when you want the AI to have more creative freedom and abstract outputs."
+    },
+    {
+      "question": "When must I use the High Control format?",
+      "answer": "Use the high control format when you need precise camera movements and exact subject placement."
+    },
+    {
+      "question": "What should a High Control Prompt resemble?",
+      "answer": "It should be structured like a detailed technical specification."
+    },
+    {
+      "question": "How do I ensure clear subject motion?",
+      "answer": "Describe the motion explicitly using active verbs and directional cues."
+    }
+  ]
+}

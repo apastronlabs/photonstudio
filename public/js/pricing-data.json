@@ -1,0 +1,32 @@
+{
+  "basic": {
+    "monthly": 7,
+    "annual": 5,
+    "monthlyOld": null,
+    "annualOld": null
+  },
+  "plus": {
+    "monthly": 14,
+    "annual": 10,
+    "monthlyOld": null,
+    "annualOld": null
+  },
+  "ultra": {
+    "monthly": 29,
+    "annual": 24,
+    "monthlyOld": null,
+    "annualOld": null
+  },
+  "business": {
+    "monthly": 71,
+    "annual": 62,
+    "monthlyOld": 89,
+    "annualOld": 89
+  },
+  "max": {
+    "monthly": 79,
+    "annual": 59,
+    "monthlyOld": null,
+    "annualOld": null
+  }
+}

@@ -1,0 +1,45 @@
+# Photon Studio
+> The Ultimate AI Creative Suite for Filmmakers, Creators, and Marketing Studios.
+> Official Website: https://photonstudio.ai
+> Web Application: https://app.photonstudio.ai
+
+## Core Platform Overview
+Photon Studio provides a unified creative environment for AI image and video generation:
+- **One Canvas Workflow**: Node-based multi-model canvas connecting character sheets, product photography, inpainting, and video prompts.
+- **Cinematic Camera Choreography**: Fine-grained camera controls (dolly, crane, tracking, orbit, crash zoom) powered by Seedance 2.5 and Seedance 2.0.
+- **Hardware & Character Consistency**: Turnaround sheets and orthographic reference boards locking 3D geometry and facial morphology across shots.
+- **Integrated Foundation Models**: Seedance 2.5, Seedance 2.0 (4K), Higgsfield AI, Nano Banana Pro, Veo 3.1, ChatGPT Image 2.
+- **Post-Processing & Grading**: InPaint, Relighting, 4K Upscaling, and 35mm film emulation (Kodak Vision3).
+
+## Key Platform URLs
+- AI Image Generator: https://photonstudio.ai/imageGenerator
+- AI Video Generator: https://photonstudio.ai/videoGenerator
+- AI Audio Generator: https://photonstudio.ai/audioGenerator
+- Pricing & Studio Plans: https://photonstudio.ai/pricing
+- Creative Blog & Tutorials: https://photonstudio.ai/blog/
+- Full Knowledge & Prompts Dump: https://photonstudio.ai/llms-full.txt
+
+## Authoritative Creative Guides & Tutorials
+
+### [Floating Worlds: Zero-Gravity Commercial Tutorial](https://photonstudio.ai/blog/floating-worlds/)
+- **Summary**: Comprehensive step-by-step masterclass on directing a 15-second zero-gravity product commercial (featuring the Logitech MX Master 4 mouse) without hardware hallucinations or character drift.
+- **Techniques Covered**:
+  1. 5-Stage AI Production Pipeline: Concept, Hardware Sheet, Casting Anchor, Turnaround Sheet, 8-Shot Video Choreography.
+  2. Studio Hardware Reference Sheets: Orthographic multi-panel prompts locking knurled scroll wheels, haptic thumb pads, and dimension tokens (128.2 mm x 88.4 mm x 50.8 mm).
+  3. Character Casting & 360° Turnarounds: Photorealistic female protagonist anchors across 9 angles with real skin texture and messy wolf-cut hair.
+  4. Seedance 2.5 8-Shot Video Choreography: Shot-by-shot timeline with lens specifications (16mm wide, 100mm macro, 24mm eye level) and camera motions (handheld push-in, 15° yaw dive, crash zoom).
+  5. Foley Sound Design & 35mm Kodak Vision3 Film Grading.
+- **URL**: https://photonstudio.ai/blog/floating-worlds/
+
+### [Mastering AI Cinematography: Camera Control, Lighting, and Prompts](https://photonstudio.ai/blog/ai-cinematography-guide/)
+- **Summary**: Direct cinematic camera movements and studio lighting hierarchies with Nano Banana Pro and Seedance 2.0 inside Photon Studio.
+- **Techniques Covered**:
+  1. Three Pillars of AI Cinematography: Camera Motion, Lens Emulation (Anamorphic 2.39:1, 35mm primes), Lighting Architecture.
+  2. Physical Lighting Instrument Descriptions: Arri Alexa 65 sensor, warm 3200K rim lights, 5600K ambient shadow fill, volumetric atmospheric dust haze.
+  3. Multi-Angle Character Consistency Boards: Building consistent character turnaround boards on Photon Studio Canvas.
+- **URL**: https://photonstudio.ai/blog/ai-cinematography-guide/
+
+## Topics & Authors
+- [All Tutorials](https://photonstudio.ai/topics/tutorials/)
+- [AI Filmmaking Cluster](https://photonstudio.ai/topics/ai-filmmaking/)
+- [Varun Kuntoor (Founder & CEO)](https://photonstudio.ai/authors/varun-kuntoor/)

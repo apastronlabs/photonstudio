@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V9BK0WHBZ1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-V9BK0WHBZ1');
+    </script>
+    <link rel="icon" type="image/png" href="./assets/Logo - Favicon.png">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photon Studio — Unlimited Seedance 2.5. What would you create with an infinite budget?">
+    <title>Unlimited Seedance 2.5 — Photon Studio</title>
+    
+    <!-- Preload / Prefetch -->
+    <link rel="prefetch" href="https://app.photonstudio.ai/login">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/unlimited-seedance-2.5.css?v=1.0.4">
+</head>
+<body>
+    <!-- Background Ambient Glow & Studio Blueprint Grid -->
+    <div class="ambient-glow"></div>
+    <div class="ambient-grid"></div>
+
+    <!-- Left Vertical Studio Sidebar -->
+    <aside class="studio-sidebar" aria-label="Studio Sidebar">
+        <a href="./index.html" class="sidebar-logo" title="Photon Studio Home">
+            <img src="./assets/Logo - Favicon.png" alt="Photon Studio">
+        </a>
+        
+        <div class="sidebar-toggle" id="sidebar-toggle" title="Toggle Mode">
+            <div class="sidebar-toggle__knob"></div>
+        </div>
+        
+        <div class="sidebar-label">Projects</div>
+        <button class="sidebar-add-btn" type="button" title="New Project">
+            <span class="material-icons" style="font-size: 16px;">add</span>
+        </button>
+        
+        <button class="sidebar-icon-btn" type="button" title="Project Folders">
+            <span class="material-icons" style="font-size: 20px;">folder</span>
+        </button>
+    </aside>
+
+    <!-- Top Right Header Controls -->
+    <header class="top-actions">
+        <button class="action-btn" id="upgrade-btn" type="button">
+            <span class="material-icons" style="font-size: 16px;">rocket_launch</span> Upgrade
+        </button>
+        <button class="action-btn" id="assets-btn" type="button">
+            <span class="material-icons" style="font-size: 16px; color: #ffb800;">folder</span> Assets
+        </button>
+    </header>
+
+    <!-- Main Page Content -->
+    <main class="page-container">
+        <!-- Hero Header -->
+        <section class="hero-header">
+            <div class="hero-tag">UNLIMITED SEEDANCE 2.5</div>
+            <h1 class="hero-title">WHAT WOULD YOU CREATE<br>WITH AN INFINITE BUDGET?</h1>
+        </section>
+
+        <!-- Generation Deck (Mode Switcher + Prompt Deck) -->
+        <section class="deck-container">
+            <!-- Mode Switcher (Image / Video) -->
+            <div class="mode-switcher" id="mode-switcher">
+                <button class="mode-btn" type="button" data-mode="image">
+                    <span class="material-icons">image</span>
+                    <span>Image</span>
+                </button>
+                <button class="mode-btn active" type="button" data-mode="video">
+                    <span class="material-icons">videocam</span>
+                    <span>Video</span>
+                </button>
+            </div>
+
+            <!-- Central Generator Box -->
+            <div class="generator-deck">
+                <div class="deck-top">
+                    <button class="add-attachment-btn" type="button" title="Add Image or Video Reference">
+                        <span class="material-icons" style="font-size: 20px;">add</span>
+                    </button>
+                    
+                    <textarea 
+                        class="prompt-textarea" 
+                        id="prompt-input" 
+                        placeholder="Describe the scene you imagine" 
+                        rows="2"
+                    ></textarea>
+                    
+                    <div class="target-selectors">
+                        <button class="target-card" type="button" title="Attach Character Reference">
+                            <div class="target-card__sheen"></div>
+                            <div class="target-card__icon-wrap">
+                                <span class="material-icons">add</span>
+                            </div>
+                            <span class="target-card__label">Character</span>
+                        </button>
+                        <button class="target-card" type="button" title="Attach Scene Reference">
+                            <div class="target-card__sheen"></div>
+                            <div class="target-card__icon-wrap">
+                                <span class="material-icons">add</span>
+                            </div>
+                            <span class="target-card__label">Scene</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="deck-bottom">
+                    <div class="parameters-group">
+                        <div class="param-pill" title="AI Model">Seedance 2.5</div>
+                        <div class="param-pill" title="Resolution">
+                            <span class="material-icons">diamond</span> 1080p
+                        </div>
+                        <div class="param-pill" title="Aspect Ratio">
+                            <span class="param-hash">#</span> 16:9
+                        </div>
+                        <div class="param-pill" title="Duration">
+                            <span class="material-icons">timer</span> 15s
+                        </div>
+                    </div>
+
+                    <button class="btn-generate" id="generate-btn" type="button">
+                        Generate <span class="material-icons">auto_awesome</span> <span class="credit-strike">22695</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Segmented Filter Toggle -->
+        <div class="filter-segmented" id="filter-segmented">
+            <button class="filter-tab active" type="button" data-tab="references">References</button>
+            <button class="filter-tab" type="button" data-tab="scenes">Scenes</button>
+        </div>
+
+        <!-- Preview Showcase Grid (Videos - Cached with zero padding) -->
+        <section class="preview-grid" id="preview-grid">
+            <article class="preview-card">
+                <video data-cache-src="https://media.photonstudio.ai/videos/3D%20to%20video.mp4" autoplay loop muted playsinline disablepictureinpicture></video>
+            </article>
+
+            <article class="preview-card">
+                <video data-cache-src="https://media.photonstudio.ai/videos/Anime%20Theater.mp4" autoplay loop muted playsinline disablepictureinpicture></video>
+            </article>
+
+            <article class="preview-card">
+                <video data-cache-src="https://media.photonstudio.ai/videos/Camera%20Angles.mp4" autoplay loop muted playsinline disablepictureinpicture></video>
+            </article>
+        </section>
+    </main>
+
+    <!-- Page Interaction & Video Caching Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const generateBtn = document.getElementById('generate-btn');
+            const promptInput = document.getElementById('prompt-input');
+            const upgradeBtn = document.getElementById('upgrade-btn');
+            const assetsBtn = document.getElementById('assets-btn');
+
+            function navigateToApp() {
+                window.location.href = 'https://app.photonstudio.ai/login';
+            }
+
+            // Generate Button Action
+            if (generateBtn) {
+                generateBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    navigateToApp();
+                });
+            }
+
+            // Enter key inside prompt
+            if (promptInput) {
+                promptInput.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' && !e.shiftKey) {
+                        e.preventDefault();
+                        navigateToApp();
+                    }
+                });
+            }
+
+            // Top action buttons
+            if (upgradeBtn) upgradeBtn.addEventListener('click', navigateToApp);
+            if (assetsBtn) assetsBtn.addEventListener('click', navigateToApp);
+
+            // Mode Switcher toggle
+            const modeBtns = document.querySelectorAll('.mode-btn');
+            modeBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    modeBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    const mode = btn.dataset.mode;
+                    if (mode === 'image') {
+                        promptInput.placeholder = "Describe the image you imagine";
+                    } else {
+                        promptInput.placeholder = "Describe the scene you imagine";
+                    }
+                });
+            });
+
+            // Filter Tabs toggle
+            const filterTabs = document.querySelectorAll('.filter-tab');
+            filterTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    filterTabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                });
+            });
+
+            // Sidebar toggle animation
+            const toggle = document.getElementById('sidebar-toggle');
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const knob = toggle.querySelector('.sidebar-toggle__knob');
+                    if (knob.style.transform === 'translateX(14px)') {
+                        knob.style.transform = 'translateX(0px)';
+                        knob.style.background = '#77736c';
+                    } else {
+                        knob.style.transform = 'translateX(14px)';
+                        knob.style.background = '#ffbe00';
+                    }
+                });
+            }
+
+            // Persistent Video Caching via Cache API (Prevents repeating network requests)
+            const VIDEO_CACHE_NAME = 'photonstudio-videos-v1';
+
+            async function loadVideoWithCache(video) {
+                const src = video.dataset.cacheSrc;
+                if (!src) return;
+
+                if (!('caches' in window)) {
+                    video.src = src;
+                    return;
+                }
+
+                try {
+                    const cache = await caches.open(VIDEO_CACHE_NAME);
+                    const match = await cache.match(src);
+
+                    if (match) {
+                        const blob = await match.blob();
+                        video.src = URL.createObjectURL(blob);
+                        video.play().catch(() => {});
+                        return;
+                    }
+
+                    // First time: stream directly so playback starts instantly
+                    video.src = src;
+                    video.play().catch(() => {});
+
+                    // Fetch and store in Cache storage in background for subsequent visits and loops
+                    fetch(src, { mode: 'cors' })
+                        .then(response => {
+                            if (response.ok) {
+                                cache.put(src, response.clone());
+                            }
+                        })
+                        .catch(() => {});
+                } catch (e) {
+                    video.src = src;
+                    video.play().catch(() => {});
+                }
+            }
+
+            document.querySelectorAll('video[data-cache-src]').forEach(loadVideoWithCache);
+
+            // Register Service Worker
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('./sw.js').catch(() => {});
+                });
+            }
+        });
+    </script>
+</body>
+</html>
